@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A0920A2E-7E8F-4AEA-A9E9-DD1DBD4BE43B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7634201D-14DE-42A7-BE43-331BCDD382DE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TaskManager", "src\TaskManager\TaskManager.xproj", "{02040F99-FA17-498C-A038-C9C3FBF8770D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02040F99-FA17-498C-A038-C9C3FBF8770D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02040F99-FA17-498C-A038-C9C3FBF8770D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02040F99-FA17-498C-A038-C9C3FBF8770D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02040F99-FA17-498C-A038-C9C3FBF8770D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02040F99-FA17-498C-A038-C9C3FBF8770D} = {A0920A2E-7E8F-4AEA-A9E9-DD1DBD4BE43B}
+	EndGlobalSection
+EndGlobal
